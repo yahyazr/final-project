@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <header>
+        <h1>Ini adalah kalkulator sederhana</a>
+    </header>
+    <section>
+        <h1>Selamat menghitung :D</h1>
+        <div id="box">
+                <input type="text" id="hasil" placeholder="0"/>
+            <table>
+                <tr>
+                    <td><input type="button" class="button" value="7" onclick="num(7)"></td>
+                    <td><input type="button" class="button" value="8" onclick="num(8)"></td>
+                    <td><input type="button" class="button" value="9" onclick='num(9)'></td>
+                    <td><input type="button" class="button" value="/" onclick="num('/')"></td>
+                    <td><input type="button" class="button" value="Del" onclick="del()"></td>
+                    <td><input type="button" class="button" value="Sin" onclick="sin('')"></td>
+                    <td><input type="button" class="button" value="log" onclick="log('')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="4" onclick="num(4)"></td>
+                    <td><input type="button" class="button" value="5" onclick="num(5)"></td>
+                    <td><input type="button" class="button" value="6" onclick="num(6)"></td>
+                    <td><input type="button" class="button" value="x" onclick="num('*')"></td>
+                    <td><input type="button" class="button" value="C" onclick="clean()"></td>
+                    <td><input type="button" class="button" value="Cosh" onclick="cosh('')"></td>
+                    <td><input type="button" class="button" value="Exp" onclick="exponen('')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="1" onclick="num(1)"></td>
+                    <td><input type="button" class="button" value="2" onclick="num(2)"></td>
+                    <td><input type="button" class="button" value="3" onclick="num(3)"></td>
+                    <td><input type="button" class="button" value="-" onclick="num('-')"></td>
+                    <td><input type="button" class="button" value="%" onclick="persen()"></td>
+                    <td><input type="button" class="button" value="Tan" onclick="tan('')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="button" value="0" onclick="num(0)"></td>
+                    <td><input type="button" class="button" value="." onclick="num('.')"></td>
+                    <td><input type="button" class="button" value="=" onclick="samadengan()"></td>
+                    <td><input type="button" class="button" value="+" onclick="num('+')"></td>
+                    <td><input type="button" class="button" value="^2" onclick="pangkat('')"></td>
+                    <td><input type="button" class="button" value="Akar" onclick="akar('')"></td>
+                </tr>
+            </table>	
+    </section>
+</body>
+</html>
