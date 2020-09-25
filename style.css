@@ -29,6 +29,7 @@ section {
 #box {
     position: relative;
     padding-top: 20px;
+    width: 60%;
     margin-left: 400px;
     margin-right: 400px;
     border: 3px solid red;
@@ -50,8 +51,8 @@ section {
 #box table {
     /* position: absolute; */
     position: absolute;
-    margin-top: 20px;
-    margin-left: 80px;
+    margin-top: 1%;
+    margin-left: 10%;
     /* margin-right: 10%; */
 }
 .button {
