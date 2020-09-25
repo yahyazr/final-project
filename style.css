@@ -35,18 +35,19 @@ section {
     height: 500px;
 }
 #hasil {
-    position: relative;
-    padding-top: 40px;
+    /* position: absolute; */
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 80%;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-right: 40px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     height: 20px;
     border: 3px solid red;
     font-size: 40px;
     text-align: right;
 }
-table {
+#box table {
     /* position: absolute; */
     position: absolute;
     margin-top: 20px;
